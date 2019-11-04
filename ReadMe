@@ -9,3 +9,4 @@ This can be used to solve any word puzzle that takes two inputs(eg: Word Link):
     1st: count of lettes 
     2nd: lettes(enter without any spaces in them)
   Then the program will search into its database and find all the appropriate word that matches to the constraints and present them before you. 
+@HOW TO RUN THE PROG:
