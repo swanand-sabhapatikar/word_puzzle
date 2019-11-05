@@ -1,0 +1,8 @@
+This is Python based project that is intended to solve word puzzle of android game named – “Word link”. In this game, we are given few letters and boxes of specific length which we have to fill with given letters. The letters should form a legitimate English word(s) . This program has database of approximate 5 MB of data that stores words according to length and not alphabetically as a text files with filenames as length of each word present in each file.
+The use has to give 2 inputs: length of required word and words to be needed.
+ The length of word needed and
+ Letters to be requited in the word.
+The program then opens text file of requited length and search for the word. The search is carried in 2 steps.
+ In 1st step, words that contain the required letters are sorted and given to step 2.
+ In 2nd step, only those words are sorted that contain mentioned letters with mentioned count.
+This optimized output is given to the user as suggestions. This program can search for set of words of given specific length at a time. This program runs as a continuous loop unless externally closed.
